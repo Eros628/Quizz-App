@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from 'react-router';
+import {HashRouter, Route, Routes} from 'react-router';
 import Home from './Page/Home';
 import {Quiz, QuizStart} from './Page/Quiz';
 import SetUp from './Page/SetUp';
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <>
-     <BrowserRouter>
+     <HashRouter>
       <Routes>
         <Route index element={<Home />}></Route>
         
@@ -55,7 +55,7 @@ function App() {
           <Route path='result' element={<Result quizItems={quizItems} user={user} setUser={setUser} setCurrentIndex={setCurrentIndex} setTimer={setTimer}/>}></Route>
         </Route>
       </Routes>
-     </BrowserRouter>
+     </HashRouter>
     </>
   )
 }
