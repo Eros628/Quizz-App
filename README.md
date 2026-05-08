@@ -1,16 +1,5 @@
-# React + Vite
+# React Project: Quiz App
+This project is from RoadMap project. It is a simple Quiz App with having a user to setup its time pacing and have a functions of reviewing and retaking the quiz. However, quiz items is only fix for now, you can't still able to change it.  The only goal here is to have the basics on setting up a quiz application for my learning of react.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Next big step:  
+I will integrate AI to this application which allows user to upload their notes and it will automatically provide quiz based on those notes using AI.
